@@ -16,13 +16,9 @@
     ],
     "minimum-stability": "stable",
     "bin": [
-        "bin/wkhtmltopdf-amd64"
+        "bin/wkhtmltopdf-amd64-debian",
+        "bin/wkhtmltopdf-amd64-ubuntu"
     ],
     "require": {
-    },
-    "autoload": {
-        "psr-4": {
-            "h4cc\\WKHTMLToPDF\\": ""
-        }
     }
 }
